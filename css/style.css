@@ -1,0 +1,22 @@
+body {
+    background-image: url(../assets/parallax.jpg);
+    height: 100%;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(29, 34, 35),rgb(96, 223, 255))
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+/* label{
+    font-weight: 900;
+    font-size: xx-large;
+    color: aliceblue;
+} */
+
+
