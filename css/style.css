@@ -1,10 +1,15 @@
 body {
-    background-image: url(../assets/parallax.jpg);
+    background-image: url(../assets/blackSand.jpg);
     height: 100%;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav{
-    background-image: linear-gradient(to right, rgb(29, 34, 35),rgb(96, 223, 255))
+    background-image: linear-gradient(to right, rgb(29, 34, 35),rgb(96, 223, 255));
+    position: fixed;
+    
 }
 
 form{
@@ -12,11 +17,31 @@ form{
     flex-direction: column;
     width: 60%;
     margin: auto;
+    padding-top: 100px;
 }
-/* label{
+label{
     font-weight: 900;
     font-size: xx-large;
     color: aliceblue;
-} */
+}
 
 
+/* impact to work.html */
+.spacer{
+    position: relative;
+    top: 4rem;
+}
+
+.w-90{
+    margin: 0 auto;
+}
+.sliders {
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
