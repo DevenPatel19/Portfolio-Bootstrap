@@ -19,7 +19,8 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
         <div class="container">
             <a class="navbar-brand ps-3 fs-3 fw-bolder" href="#">Deven Patel</a>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -28,15 +29,36 @@
                         <a class="nav-link fw-bolder link-secondary fs-5" href="./index.html">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link drop|down-toggle fw-bolder link-secondary fs-5" href="./work.html">Projects<span class="sr-only">(current)</span></a>
+                        <a class="nav-link drop|down-toggle fw-bolder link-secondary fs-5"
+                            href="./work.html">Projects<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bolder link-secondary fs-5" href="./contact.html">Contact</a>
+                        <a class="nav-link fw-bolder link-secondary fs-5  data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="./contact.html">Contact</a>
                     </li>
                     <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
                 </li> -->
                 </ul>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
